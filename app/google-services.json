@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "461586234687",
+    "firebase_url": "https://hititup-28037086.firebaseio.com",
+    "project_id": "hititup-28037086",
+    "storage_bucket": "hititup-28037086.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461586234687:android:81a1236c09141c18",
+        "android_client_info": {
+          "package_name": "com.owldevelopers.hititup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461586234687-gkpr8jiaq8beigr611mf9adicm5mr6t1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.owldevelopers.hititup",
+            "certificate_hash": "bc33aa2ded7c9da604de004707b2fb447c83f5a8"
+          }
+        },
+        {
+          "client_id": "461586234687-ufdrpufjgl29q7pisca3bd1mvg0mvfim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGl6ZSOzTSoKmG-5uckwiS91Dpv5a4d-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461586234687-ufdrpufjgl29q7pisca3bd1mvg0mvfim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
