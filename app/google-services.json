@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "461586234687",
-    "firebase_url": "https://hititup-28037086.firebaseio.com",
-    "project_id": "hititup-28037086",
-    "storage_bucket": "hititup-28037086.appspot.com"
+    "project_number": "752618324463",
+    "firebase_url": "https://hit-it-up-98970346.firebaseio.com",
+    "project_id": "hit-it-up-98970346",
+    "storage_bucket": "hit-it-up-98970346.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:461586234687:android:81a1236c09141c18",
+        "mobilesdk_app_id": "1:752618324463:android:81a1236c09141c18",
         "android_client_info": {
           "package_name": "com.owldevelopers.hititup"
         }
       },
       "oauth_client": [
         {
-          "client_id": "461586234687-gkpr8jiaq8beigr611mf9adicm5mr6t1.apps.googleusercontent.com",
+          "client_id": "752618324463-4o0vg1auaq13kqd3ddqgps9l13c5qud8.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.owldevelopers.hititup",
@@ -23,20 +23,28 @@
           }
         },
         {
-          "client_id": "461586234687-ufdrpufjgl29q7pisca3bd1mvg0mvfim.apps.googleusercontent.com",
+          "client_id": "752618324463-4ikctn0u3n4i87gps8ea1634clmhk8vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.owldevelopers.hititup",
+            "certificate_hash": "1a80483585ddc53d660fce48b89cf9cf5908ef7a"
+          }
+        },
+        {
+          "client_id": "752618324463-7oevi2vk335cuhp27kesei40pqfr4sc2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAGl6ZSOzTSoKmG-5uckwiS91Dpv5a4d-c"
+          "current_key": "AIzaSyAahkQTRLOsE7_LbPnycWDCYhOKS_HG2H0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "461586234687-ufdrpufjgl29q7pisca3bd1mvg0mvfim.apps.googleusercontent.com",
+              "client_id": "752618324463-7oevi2vk335cuhp27kesei40pqfr4sc2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

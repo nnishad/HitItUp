@@ -47,4 +47,8 @@
     <string name='match_error_locally_modified'>This match has locally-modified data.  This operation cannot be performed until the match is sent to the server.</string>
     <string name="score_label">%1$s - Me</string>
 
+    <string name="players_exception">There was an issue communicating with players.</string>
+    <string name="MainButtonText">Press</string>
+
+
 </resources>
