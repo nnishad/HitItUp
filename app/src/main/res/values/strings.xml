@@ -15,11 +15,11 @@
 -->
 
 <resources>
-    <string name="app_name">Button Clicker</string>
-    <string name="game_title">Button Clicker!</string>
+    <string name="app_name">XP Unlocker</string>
+    <string name="game_title">Hit It Up!</string>
     <string name="game_blurb">Under Development.</string>
-    <string name="single_player">Unlock Rookie</string>
-    <string name="single_player_explanation">Get XP to 150</string>
+    <string name="single_player">Unlock My XP</string>
+    <string name="single_player_explanation">Get XP to Maxx</string>
     <string name="quick_game">Unlock Pro</string>
     <string name="invite_players">Show Leaderboard</string>
     <string name="see_invitations">How achievements</string>

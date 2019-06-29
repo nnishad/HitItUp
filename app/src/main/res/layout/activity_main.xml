@@ -18,6 +18,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <FrameLayout
+        android:id="@+id/gps_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
 
     <!-- SIGN-IN SCREEN -->
     <LinearLayout android:id="@+id/screen_sign_in" style="@style/LLScreen">
@@ -31,24 +39,13 @@
     <!-- MAIN SCREEN -->
     <LinearLayout android:id="@+id/screen_main" style="@style/LLScreen">
 
-        <FrameLayout
-            android:id="@+id/gps_popup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp" />
+
         <TextView style="@style/GameTitle" />
         <Button android:id="@+id/button_single_player_2"
             style="@style/MainScreenButton"
             android:text="@string/single_player" />
         <TextView style="@style/MainScreenButtonBlurb"
             android:text="@string/single_player_explanation" />
-        <Button android:id="@+id/button_quick_game"
-            style="@style/MainScreenButton"
-            android:text="@string/quick_game" />
-        <TextView style="@style/MainScreenButtonBlurb"
-            android:text="@string/quick_game_explanation" />
         <Button android:id="@+id/button_invite_players"
             style="@style/MainScreenButton"
             android:text="@string/invite_players" />

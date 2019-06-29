@@ -6,10 +6,20 @@ Save this file as res/values/games-ids.xml in your project.
 <resources>
     <!-- app_id -->
     <string name="app_id" translatable="false">752618324463</string>
-    <!-- achievement Rookie -->
-    <string name="achievement_rookie" translatable="false">CgkI74Ox3PMVEAIQAQ</string>
-    <!-- achievement Pro -->
-    <string name="achievement_pro" translatable="false">CgkI74Ox3PMVEAIQAg</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.owldevelopers.hititup</string>
+    <!-- achievement Level 1 -->
+    <string name="achievement_level_1" translatable="false">CgkI74Ox3PMVEAIQAQ</string>
+    <!-- achievement Level 2 -->
+    <string name="achievement_level_2" translatable="false">CgkI74Ox3PMVEAIQAg</string>
+    <!-- achievement Level 3 -->
+    <string name="achievement_level_3" translatable="false">CgkI74Ox3PMVEAIQBA</string>
+    <!-- achievement Level 4 -->
+    <string name="achievement_level_4" translatable="false">CgkI74Ox3PMVEAIQBQ</string>
+    <!-- achievement Level 5 -->
+    <string name="achievement_level_5" translatable="false">CgkI74Ox3PMVEAIQBg</string>
+    <!-- achievement Level 6 -->
+    <string name="achievement_level_6" translatable="false">CgkI74Ox3PMVEAIQBw</string>
     <!-- leaderboard Your Leaderboard -->
     <string name="leaderboard_your_leaderboard" translatable="false">CgkI74Ox3PMVEAIQAw</string>
 </resources>

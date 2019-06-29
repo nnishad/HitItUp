@@ -19,6 +19,7 @@ import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.games.AchievementsClient;
 import com.google.android.gms.games.Games;
 import com.google.android.gms.games.GamesCallbackStatusCodes;
+import com.google.android.gms.games.GamesClient;
 import com.google.android.gms.games.GamesClientStatusCodes;
 import com.google.android.gms.games.InvitationsClient;
 import com.google.android.gms.games.LeaderboardsClient;
@@ -53,7 +54,8 @@ public class MainActivity extends Activity implements
   // event handlers.
   final static int[] CLICKABLES = {
           R.id.button_accept_popup_invitation, R.id.button_invite_players,
-          R.id.button_quick_game, R.id.button_see_invitations, R.id.button_sign_in,
+          //R.id.button_quick_game,
+          R.id.button_see_invitations, R.id.button_sign_in,
           R.id.button_sign_out, R.id.button_click_me, //R.id.button_single_player,
           R.id.button_single_player_2
   };
@@ -186,9 +188,29 @@ public class MainActivity extends Activity implements
       //case R.id.button_single_player:
       case R.id.button_single_player_2:
         Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
-                .unlock(getString(R.string.achievement_rookie));
+                .unlock(getString(R.string.achievement_level_1));
         Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this))
-                .submitScore(getString(R.string.leaderboard_your_leaderboard), 15000);
+                .submitScore(getString(R.string.leaderboard_your_leaderboard), 19500);
+        Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .unlock(getString(R.string.achievement_level_2));
+        Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .submitScore(getString(R.string.leaderboard_your_leaderboard), 19500);
+        Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .unlock(getString(R.string.achievement_level_3));
+        Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .submitScore(getString(R.string.leaderboard_your_leaderboard), 19500);
+        Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .unlock(getString(R.string.achievement_level_4));
+        Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .submitScore(getString(R.string.leaderboard_your_leaderboard), 19500);
+        Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .unlock(getString(R.string.achievement_level_5));
+        Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .submitScore(getString(R.string.leaderboard_your_leaderboard), 19500);
+        Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .unlock(getString(R.string.achievement_level_6));
+        Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this))
+                .submitScore(getString(R.string.leaderboard_your_leaderboard), 2500);
 
         // play a single-player game
         //resetGameVars();
@@ -216,14 +238,10 @@ public class MainActivity extends Activity implements
         // user wants to accept the invitation shown on the invitation popup
         // (the one we got through the OnInvitationReceivedListener).
         break;
-      case R.id.button_quick_game:
-        Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this))
-                .unlock(getString(R.string.achievement_pro));
-        Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this))
-                .submitScore(getString(R.string.leaderboard_your_leaderboard), 15000);
+      //case R.id.button_quick_game:
         // user wants to play against a random opponent right now
         //startQuickGame();
-        break;
+      //break;
       case R.id.button_click_me:
         // (gameplay) user clicked the "click me" button
         //scoreOnePoint();
@@ -481,6 +499,8 @@ public class MainActivity extends Activity implements
 
       mSignedInAccount = googleSignInAccount;
       mAchievementsClient = Games.getAchievementsClient(this, googleSignInAccount);
+      GamesClient gamesClient = Games.getGamesClient(MainActivity.this, googleSignInAccount);
+      gamesClient.setViewForPopups(findViewById(R.id.gps_popup));
       mLeaderboardsClient = Games.getLeaderboardsClient(this, googleSignInAccount);
 
       // update the clients
